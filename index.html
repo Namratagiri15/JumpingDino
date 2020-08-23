@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>My First Game</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+    </style>
+    
+    <body class="parent">
+        <h3>Jumping Dinosaur Game</h3>
+        <div id="game">
+          <div id="character">
+              <img src="dino.png">
+          </div>
+          <div id="block">
+            <img src="cactus.jpeg">
+          </div>
+        </div>
+        <div id="game-controller">
+            <button class="myBtn" onclick="jump()">JUMP</button>
+            <button class="myBtn" onclick="start()">Start the game</button>
+        </div>
+        
+            <h3 id="score">Your Score is : <span id="score"></span></h3>   
+    </body>
+    <script src="script.js"></script>
+</html>

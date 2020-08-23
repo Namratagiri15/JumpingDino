@@ -1,0 +1,72 @@
+.myBtn {
+  padding: 10px;
+  margin: 10px;
+  background-color: #1B75EE;
+  color: white;
+  border-radius: 5px;
+}
+
+body  {
+    background-color: wheat;
+}
+
+#game {
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 200px;
+    width: 500px;
+    background-color: white;
+}
+
+#game-controller {
+    display: flex;
+    justify-content: center;
+}
+
+#character {
+    position: relative;
+    top: 150px;
+    width: 20px;
+}
+
+#character img {
+    height: 50px;
+    width: 50px;
+}
+
+.animate {
+    animation: jump 1s;
+}
+
+#block {
+    animation: block 1s infinite;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 130px;
+    left: 480px;
+}
+
+#block img {
+    height: 20px;
+    width: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.parent {
+    margin-top: 20%;
+}
+
+@keyframes block {
+    0%{left: 480px;}
+    100%{left: 0;}
+}
+
+@keyframes jump {
+     0%{top: 150px;}
+     30%{top: 100px;}
+     100%{top: 150px;}
+}
